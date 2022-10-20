@@ -1,0 +1,204 @@
+html {
+background: url(spaceparticles2.png) no-repeat center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+body 
+{
+
+}
+h1 {
+text-align:center;
+text-decoration:solid;
+color:white;
+
+}
+header {
+
+}
+
+footer {
+text-align: center;
+background-color: rgb(22, 22, 22)
+
+}
+h3{
+text-align: center;
+color:white;
+font-size: 15px;
+}
+
+.länkar {
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr 1fr 1fr 1fr
+}
+a {
+text-decoration: underline;
+color: white;
+}
+
+a:hover {
+ color: rgb(27, 157, 193)
+}
+nav {
+text-align: center;
+}
+
+.bilderindex {
+    display:grid;
+    grid-template-areas:repeat(auto-fit,minmax(80px, 0.6fr));
+    grid-auto-rows: 12rem;
+    gap: 20px;
+}
+
+.bild {
+overflow:hidden;
+cursor:pointer;
+position:relative;
+}
+
+.bild__img {
+height:100%;
+width:100%;
+object-fit:cover;
+transition:250ms ease-out;
+}
+
+.bild__detail {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;display:flex;
+justify-content:center;
+align-items:center;
+background-color:rgba(255,255,255,0.5);
+backdrop-filter:blur(2px)
+brightness(1.3);
+opacity:0;
+}
+
+.bild:hover img {
+transform:scale(1.1);
+}
+
+.bild__detail:hover {
+opacity:1;
+}
+
+h6 {
+font-size:30px;
+text-align:center;
+position:relative;
+transition:top 350ms;
+}
+
+
+.linkcolor1 {
+color: rgb(27, 157, 193)
+}
+.linkcolor2 {
+    color: rgb(27, 157, 193)
+    }
+    .linkcolor3 {
+        color: rgb(27, 157, 193)
+        }
+        .linkcolor4 {
+            color: rgb(27, 157, 193)
+            }
+            .linkcolor5
+             {
+                color: rgb(27, 157, 193)
+                }
+                .linkcolor6 {
+                    color: rgb(27, 157, 193)
+                    }
+
+.stellarisBildText {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap: 20px;
+    margin:0 auto;
+    
+}
+
+.bilder_bilder {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    text-align:center;
+    }
+    
+    .bilder_bilder img {
+        width: 95%;
+        height: 95%;
+        margin:0 auto;
+    }
+
+h2 {
+color:white;
+text-align: center;
+margin:0 auto;
+}
+
+h3 {
+color:red;
+text-align:center;
+margin:0 auto;
+}
+
+h4 {
+color:red;
+text-align:center;
+font-size:32px;
+margin:0 auto;
+}
+
+.stellarisBildText img {
+    width: 100%;
+    height: 75%;
+    gap: 20px;
+    margin:0 auto;
+}
+
+.video {
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-template-rows:1fr 1fr;
+}
+
+.reviews {
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-template-rows:1fr 1fr;
+text-align:center;
+}
+
+.reviews img {
+    width: 70%;
+    height: 70%;
+    margin:0 auto;
+}
+
+.nyheterBild {
+display:grid;
+grid-template-columns:1fr;
+}
+
+.nyheterBild img {
+height:100%;
+width:100%;
+}
+
+.dlcs {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
